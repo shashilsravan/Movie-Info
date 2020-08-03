@@ -1,0 +1,28 @@
+#movies img, #movie img{
+    width: 100%;
+}
+
+.col-md-2{
+    border: 0.01rem solid white;
+    padding: 1rem 0rem;
+    margin: 1rem;
+}
+
+h6{
+    padding: 1rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-primary{
+    margin-bottom: 1rem;
+}
+
+@media(min-width:960px){
+    #movies .col-md-3 .well{
+        height: 390px;
+    }
+    
+    #movies .col-md-3 img{
+        height: 240px;
+    }
+}
